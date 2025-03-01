@@ -29,10 +29,10 @@ pip install -r requirements.txt
 #### 4. Set up API Key:
 * Create a .env file in the project directory.
 * Add your API key:
-GOOGLE_API_KEY=your_api_key_here
+GOOGLE_API_KEY=AIzaSyDznXOghv-5RmRYXXiAkgIb1O6rF3DWFzQ
 
 #### 5. Run the agent:
-python main.py
+python test5.py
 
 ## Models and Datasets Used
 * Speech Recognition: Google Speech Recognition API for converting spoken input to text.
