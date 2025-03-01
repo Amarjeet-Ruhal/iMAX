@@ -16,20 +16,26 @@ The AI Cold-Calling Agent is an interactive voice-based assistant that helps aut
 
 ### Installation Steps
 #### 1. Clone the repository:
-git clone [https://github.com/your-repo/ai-cold-calling.git](https://github.com/Amarjeet-Ruhal/iMAX)
+git clone https://github.com/your-repo/ai-cold-calling.git
 cd ai-cold-calling
 
 #### 2. Set up a virtual environment:
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 #### 3. Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 #### 4. Set up API Key:
 * Create a .env file in the project directory.
 * Add your API key:
-GOOGLE_API_KEY=AIzaSyDznXOghv-5RmRYXXiAkgIb1O6rF3DWFzQ
+```bash
+GOOGLE_API_KEY="AIzaSyDznXOghv-5RmRYXXiAkgIb1O6rF3DWFzQ"
+```
 
 #### 5. Run the agent:
 python test5.py
@@ -58,14 +64,15 @@ Watch a demonstration of the AI Cold-Calling Agent in action:
 ## Features and Implementation Status
 
 
-
-- Speech Recognition ✅ Completed
-- AI Response Generation (Gemini API) ✅ Completed
-- Text-to-Speech (gTTS & Pygame) ✅ Completed
-- Task Switching ✅ Completed
-- Demo Scheduling Storage ✅ Completed
-- Error Handling & Robustness ⚠️ Partially - Implemented
-- Multi-Language Support ✅ Complete
+| Features | Status |
+|---------  | -------- |
+| Speech Recognition | ✅ Completed |
+|AI Response Generation (Gemini API)|✅ Completed|
+|Text-to-Speech (gTTS & Pygame)| ✅ Completed|
+|Task Switching |✅ Completed|
+|Demo Scheduling Storage| ✅ Completed|
+|Error Handling & Robustness |⚠️ Partially - Implemented
+|Multi-Language Support |✅ Complete|
 
 
 ## Future Improvements
@@ -76,4 +83,8 @@ Watch a demonstration of the AI Cold-Calling Agent in action:
 
 ## License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/).
+
+
+## 🚀 About Me
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amarjeet-ruhal/)
