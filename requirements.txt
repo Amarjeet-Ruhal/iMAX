@@ -1,0 +1,13 @@
+gtts
+speechrecognition
+pygame
+tempfile
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
+tensorflow
+transformers
+python-dotenv
+SpeechRecognition
+pyaudio
