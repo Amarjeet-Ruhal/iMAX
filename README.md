@@ -16,7 +16,7 @@ The AI Cold-Calling Agent is an interactive voice-based assistant that helps aut
 
 ### Installation Steps
 #### 1. Clone the repository:
-git clone https://github.com/your-repo/ai-cold-calling.git
+git clone [https://github.com/your-repo/ai-cold-calling.git](https://github.com/Amarjeet-Ruhal/iMAX)
 cd ai-cold-calling
 
 #### 2. Set up a virtual environment:
