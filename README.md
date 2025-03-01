@@ -34,7 +34,7 @@ pip install -r requirements.txt
 * Create a .env file in the project directory.
 * Add your API key:
 ```bash
-GOOGLE_API_KEY="AIzaSyDznXOghv-5RmRYXXiAkgIb1O6rF3DWFzQ"
+GOOGLE_API_KEY="give_your_api_key"
 ```
 
 #### 5. Run the agent:
