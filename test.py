@@ -163,7 +163,7 @@ def search_payment_info(data, query):
             x=True
 
         # Try matching against customer name or invoice number
-        if customer in query or query == invoice.lower():
+        if customer in query or x:
             return {
                 "Customer": row.get("Customer Name", "N/A"),
                 "Invoice": row.get("Invoice No.", "N/A"),
@@ -199,7 +199,7 @@ def generate_response(user_input, mode, payment_data=None):
                 return (
                     f"Payment information for {info['Customer']}:\n"
                     f"Invoice No: {info['Invoice']}, Amount: ₹{info['Amount']}, "
-                    f"Balance: {info['Status']}, Due Date: {info['Due Date']}."
+                    f"Balance: ₹{info['Status']}, Due Date: {info['Due Date']}."
                 )
             else:
                 return generate_response(user_input, mode,payment_data)
